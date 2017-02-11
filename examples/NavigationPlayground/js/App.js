@@ -19,6 +19,7 @@ import ModalStack from './ModalStack';
 import StacksInTabs from './StacksInTabs';
 import SimpleStack from './SimpleStack';
 import SimpleTabs from './SimpleTabs';
+import DeferredRendering from './DeferredRendering'
 
 const ExampleRoutes = {
   SimpleStack: {
@@ -62,6 +63,12 @@ const ExampleRoutes = {
     description: 'Deep linking into a route in tab',
     screen: SimpleTabs,
     path: 'settings',
+  },
+  DeferredRendering: {
+    name: 'DeferredRendering Example',
+    description: 'Normal rendering vs DeferredRendering',
+    screen: DeferredRendering,
+    path: 'deferredrendering',
   },
 };
 
